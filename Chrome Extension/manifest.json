@@ -1,0 +1,62 @@
+{
+    "manifest_version": 3,
+    "name": "战舰世界莱服网页汉化",
+    "version": "0.0.1",
+    "description": "战舰世界莱服网页汉化",
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://armory.korabli.su/*", "https://armory.korabli.su/*"],
+            "js": [
+                "Framework/framework.js",
+                "InGameBrowserLocalizer/localizer-armory.js"
+            ],
+            "run_at": "document_idle"
+        },
+        {
+            "matches": ["http://clans.korabli.su/*", "https://clans.korabli.su/*"],
+            "js": [
+                "Framework/framework.js",
+                "InGameBrowserLocalizer/localizer-clan.js"
+            ],
+            "run_at": "document_idle"
+        },
+        {
+            "matches": ["http://dockyard.korabli.su/*", "https://dockyard.korabli.su/*"],
+            "js": [
+                "Framework/framework.js",
+                "InGameBrowserLocalizer/localizer-dockyard.js"
+            ],
+            "run_at": "document_idle"
+        },
+        {
+            "matches": ["http://friends.korabli.su/*", "https://friends.korabli.su/*"],
+            "js": [
+                "Framework/framework.js",
+                "InGameBrowserLocalizer/localizer-friends.js"
+            ],
+            "run_at": "document_idle"
+        },
+        {
+            "matches": ["http://profile.korabli.su/*", "https://profile.korabli.su/*"],
+            "js": [
+                "Framework/framework.js",
+                "InGameBrowserLocalizer/localizer-profile.js"
+            ],
+            "run_at": "document_idle"
+        },
+        {
+            "matches": ["http://warehouse.korabli.su/*", "https://warehouse.korabli.su/*"],
+            "js": [
+                "Framework/framework.js",
+                "InGameBrowserLocalizer/localizer-warehouse.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
