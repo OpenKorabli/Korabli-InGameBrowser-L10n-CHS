@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         战舰世界莱服网页汉化-框架
+// @name         战舰世界莱服网页汉化-资源-框架
 // @namespace    https://github.com/windofxy
 // @version      202503051039
-// @description  战舰世界莱服网页汉化-框架
+// @description  战舰世界莱服网页汉化-资源-框架
 // @author       Windofxy
 // @icon         https://gh-proxy.net/github.com/OpenKorabli/Korabli-InGameBrowser-L10n-CHS/blob/main/Tampermonkey%20Script/icon128.png
 // @grant        none
